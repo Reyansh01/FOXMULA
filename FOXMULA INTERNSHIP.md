@@ -1,1 +1,0 @@
-Assignments during FOXMULA Internship.
