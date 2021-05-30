@@ -3,16 +3,6 @@ import java.util.Scanner;
 
 public class StackUsingLL {
 
-    private class LinkedList {
-        int data;
-        LinkedList next;
-
-        //parameterized constructor
-        LinkedList(int data) {
-            this.data = data;
-            this.next = null;
-        }
-    }
     //creating a node for the top of the stack.
     private LinkedList topOfTheStack;
     private int size = 0;

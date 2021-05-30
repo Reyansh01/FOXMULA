@@ -14,6 +14,7 @@ public class Quadrilateral {
         this.x4 = x4;
         this.y4 = y4;
     }
+
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
