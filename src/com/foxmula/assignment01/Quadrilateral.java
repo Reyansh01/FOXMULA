@@ -22,18 +22,18 @@ public class Quadrilateral {
         System.out.println("Enter values for Square: ");
         Square sq=new Square(sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt(),
                 sc.nextInt(),sc.nextInt());
-        System.out.println("Area Of The Square is " + sq.area());
+        System.out.println("Area Of The Square is: " + sq.area());
 
         Rectangle rec=new Rectangle(sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt(),
                 sc.nextInt(),sc.nextInt(),sc.nextInt());
-        System.out.println("Area Of The Rectangle is " + rec.area());
+        System.out.println("Area Of The Rectangle is: " + rec.area());
 
         Parallelogram p=new Parallelogram(sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt(),
                 sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt(), sc.nextInt());
-        System.out.println("Area Of The Parallelogram is " + p.area());
+        System.out.println("Area Of The Parallelogram is: " + p.area());
 
         Trapezoid t=new Trapezoid(sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt(),
                 sc.nextInt(),sc.nextInt(),sc.nextInt(),sc.nextInt(), sc.nextInt());
-        System.out.println("Area Of The Trapezoid is " + t.area());
+        System.out.println("Area Of The Trapezoid is: " + t.area());
     }
 }
