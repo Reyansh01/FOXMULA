@@ -16,6 +16,8 @@ public class ArrayListSum {
         System.out.println("Enter 'k' value: ");
         int k = sc.nextInt();
 
+        Collections.sort(arr);
+
         boolean flag = false;
         int low = 0, high = arr.size()-1;
         while(low < high) {
