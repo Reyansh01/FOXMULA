@@ -2,7 +2,7 @@ package com.foxmula.assignment03;
 
 import java.util.Scanner;
 
-public class customException {
+public class NumberMain {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
